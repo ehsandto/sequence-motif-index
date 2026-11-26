@@ -1,0 +1,9 @@
+{
+  "events": [
+    "The technician completed an inspection of the device.",
+    "The technician completed a repair by replacing the broken knob.",
+    "The technician completed an inspection of the replaced component.",
+    "The technician completed another repair by replacing a worn washer.",
+    "The technician completed a final inspection."
+  ]
+}

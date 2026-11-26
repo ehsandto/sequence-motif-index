@@ -1,0 +1,10 @@
+{
+  "events": [
+    "The technician completed the intake inspection.",
+    "The technician completed a repair by replacing a failed switch.",
+    "The technician completed a follow-up inspection.",
+    "A second repair was proposed but never carried out. No work was performed.",
+    "The technician later completed a repair by replacing a loose screw.",
+    "The technician completed an inspection of that repair."
+  ]
+}
