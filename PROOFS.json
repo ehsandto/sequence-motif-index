@@ -1,0 +1,166 @@
+{
+  "network": "StudioNet",
+  "source_commit": "fbd3314ca9e74f0f8087509a5dc962dcc730fa7b",
+  "transactions": [
+    {
+      "step": "deploy",
+      "signer": "0xbf6D8de6E00a905DE1De989E5AAe6d69AF6B87A3",
+      "nonce": "0x0",
+      "functionName": "deploy",
+      "args": [],
+      "fee_wei": "78852000002588",
+      "hash": "0xdb4379ebf26e48c940d94291b93a587e7349040b30903ebc9782ccc5057cd1f5",
+      "receipt": {
+        "hash": "0xdb4379ebf26e48c940d94291b93a587e7349040b30903ebc9782ccc5057cd1f5",
+        "address": "0x152e8e5AbfE2650eF6D9aB5cF2D259bC82Ced59D",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "bench-a",
+      "signer": "0xbf6D8de6E00a905DE1De989E5AAe6d69AF6B87A3",
+      "nonce": "0x1",
+      "functionName": "index_trace",
+      "args": [
+        "ehsandto/sequence-motif-index/fbd3314ca9e74f0f8087509a5dc962dcc730fa7b/fixtures/bench-a.json",
+        "5710e337cf6adf320a7a3a381982494838366fdda229d2e24b9d304269a9a399"
+      ],
+      "fee_wei": "78852000002588",
+      "hash": "0x7ce1c68fce1e08a9605c3aa625e74eb3f1c752fb5d6332a4a29b95b283f15bd8",
+      "receipt": {
+        "hash": "0x7ce1c68fce1e08a9605c3aa625e74eb3f1c752fb5d6332a4a29b95b283f15bd8",
+        "address": "0x152e8e5AbfE2650eF6D9aB5cF2D259bC82Ced59D",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "bench-b",
+      "signer": "0xbf6D8de6E00a905DE1De989E5AAe6d69AF6B87A3",
+      "nonce": "0x2",
+      "functionName": "index_trace",
+      "args": [
+        "ehsandto/sequence-motif-index/fbd3314ca9e74f0f8087509a5dc962dcc730fa7b/fixtures/bench-b.json",
+        "d6d7a1cb8977e3d2e36b4dcfb0caae24dfa4df50ad171f86cc933089ad0a6fc0"
+      ],
+      "fee_wei": "78852000002588",
+      "hash": "0x3ffa7ff1c3112b37a2b44ba80ddb14918dcb6d2c77df4fb7cfb247115d5723a0",
+      "receipt": {
+        "hash": "0x3ffa7ff1c3112b37a2b44ba80ddb14918dcb6d2c77df4fb7cfb247115d5723a0",
+        "address": "0x152e8e5AbfE2650eF6D9aB5cF2D259bC82Ced59D",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "replay-a",
+      "signer": "0xbf6D8de6E00a905DE1De989E5AAe6d69AF6B87A3",
+      "nonce": "0x3",
+      "functionName": "index_trace",
+      "args": [
+        "ehsandto/sequence-motif-index/fbd3314ca9e74f0f8087509a5dc962dcc730fa7b/fixtures/bench-a.json",
+        "5710e337cf6adf320a7a3a381982494838366fdda229d2e24b9d304269a9a399"
+      ],
+      "fee_wei": "78852000002588",
+      "hash": "0x78db2878850030d6dff62cfb4c837f4a2732adf56d69b3cea690453d828d211d",
+      "receipt": {
+        "hash": "0x78db2878850030d6dff62cfb4c837f4a2732adf56d69b3cea690453d828d211d",
+        "address": "0x152e8e5AbfE2650eF6D9aB5cF2D259bC82Ced59D",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "validator_execution_seen": true
+      }
+    }
+  ],
+  "traces": {
+    "bench-a": {
+      "events": [
+        "The technician completed an inspection of the device.",
+        "The technician completed a repair by replacing the broken knob.",
+        "The technician completed an inspection of the replaced component.",
+        "The technician completed another repair by replacing a worn washer.",
+        "The technician completed a final inspection."
+      ],
+      "labels": [
+        "CHECK",
+        "REPAIR",
+        "CHECK",
+        "REPAIR",
+        "CHECK"
+      ],
+      "sha256": "5710e337cf6adf320a7a3a381982494838366fdda229d2e24b9d304269a9a399",
+      "text": "{\n  \"events\": [\n    \"The technician completed an inspection of the device.\",\n    \"The technician completed a repair by replacing the broken knob.\",\n    \"The technician completed an inspection of the replaced component.\",\n    \"The technician completed another repair by replacing a worn washer.\",\n    \"The technician completed a final inspection.\"\n  ]\n}\n",
+      "url": "https://raw.githubusercontent.com/ehsandto/sequence-motif-index/fbd3314ca9e74f0f8087509a5dc962dcc730fa7b/fixtures/bench-a.json"
+    },
+    "bench-b": {
+      "events": [
+        "The technician completed the intake inspection.",
+        "The technician completed a repair by replacing a failed switch.",
+        "The technician completed a follow-up inspection.",
+        "A second repair was proposed but never carried out. No work was performed.",
+        "The technician later completed a repair by replacing a loose screw.",
+        "The technician completed an inspection of that repair."
+      ],
+      "labels": [
+        "CHECK",
+        "REPAIR",
+        "CHECK",
+        "OTHER",
+        "REPAIR",
+        "CHECK"
+      ],
+      "sha256": "d6d7a1cb8977e3d2e36b4dcfb0caae24dfa4df50ad171f86cc933089ad0a6fc0",
+      "text": "{\n  \"events\": [\n    \"The technician completed the intake inspection.\",\n    \"The technician completed a repair by replacing a failed switch.\",\n    \"The technician completed a follow-up inspection.\",\n    \"A second repair was proposed but never carried out. No work was performed.\",\n    \"The technician later completed a repair by replacing a loose screw.\",\n    \"The technician completed an inspection of that repair.\"\n  ]\n}\n",
+      "url": "https://raw.githubusercontent.com/ehsandto/sequence-motif-index/fbd3314ca9e74f0f8087509a5dc962dcc730fa7b/fixtures/bench-b.json"
+    }
+  },
+  "test_faucets": [
+    {
+      "address": "0xbf6D8de6E00a905DE1De989E5AAe6d69AF6B87A3",
+      "requested_wei": "10000000000000000"
+    }
+  ],
+  "address": "0x152e8e5AbfE2650eF6D9aB5cF2D259bC82Ced59D",
+  "source": {
+    "address": "0x152e8e5AbfE2650eF6D9aB5cF2D259bC82Ced59D",
+    "source_match": true,
+    "sha256": "9b5e154d8dbe9639e5f1067762502db8eab43548af52792c290b12d175d395a6"
+  },
+  "after_a": {
+    "documents": 1,
+    "occurrences": 2
+  },
+  "before_replay": {
+    "documents": 2,
+    "occurrences": 3
+  },
+  "after_replay": {
+    "documents": 2,
+    "occurrences": 3
+  },
+  "reverse_motif": {
+    "documents": 1,
+    "occurrences": 1
+  },
+  "verified": true
+}

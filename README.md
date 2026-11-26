@@ -9,3 +9,5 @@ The labels ARRIVE, CHECK, REPAIR, and RELEASE form the searchable vocabulary. OT
 `get_trace(commitment)` returns the source and labels. `get_motif("CHECK/REPAIR/CHECK")` returns the occurrence and document counts. The index measures the descriptions published in its corpus. The fictional fixtures demonstrate the classification and counting rules.
 
 Install `requirements-dev.txt`, then run `python -m pytest tests -q` and `genvm-lint check contracts/SequenceMotifIndex.py`.
+
+[Submission](SUBMISSION.md) · [StudioNet proofs](LIVE_PROOFS.md)
